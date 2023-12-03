@@ -1,0 +1,394 @@
+.MainDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.section-1 {
+  padding: 20px;
+  height: 600px;
+  width: 1000px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.section-1 > h1 {
+  font-size: 70px;
+  line-height: 70px;
+  margin-bottom: 10px;
+}
+
+.section-1 > h3 {
+  font-size: 30px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.section-1 > button {
+  margin: 25px;
+  padding: 5px;
+  font-size: 19px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+  color: white;
+  background-color: black;
+  gap: 10px;
+}
+
+.section-1 > button:hover {
+  background-color: rgb(52, 52, 52);
+}
+
+.section-1 .first-pic {
+  height: 250px;
+  width: 600px;
+}
+
+.section-2 {
+  width: 1000px;
+  height: 90vh;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.section-2 > .card {
+  height: 130px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.section-2 > .card > .card1,
+.section-2 > .card > .card2,
+.section-2 > .card > .card3,
+.section-2 > .card > .card4 {
+  height: 130px;
+  width: 300px;
+  border-radius: 10px;
+  background-color: rgb(244, 244, 244);
+  box-shadow: 5px 5px 5px 5px rgb(224, 224, 224);
+  cursor: pointer;
+}
+
+.section-2 > .card > .card1 > span,
+.section-2 > .card > .card2 > span,
+.section-2 > .card > .card3 > span,
+.section-2 > .card > .card4 > span {
+  font-size: 25px;
+  text-align: center;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-2 > .card > .card1 > p,
+.section-2 > .card > .card2 > p,
+.section-2 > .card > .card3 > p,
+.section-2 > .card > .card4 > p {
+  font-size: 19px;
+  text-align: center;
+  padding: 2px;
+}
+
+.section-2 > .card > .card1:hover,
+.section-2 > .card > .card2:hover,
+.section-2 > .card > .card3:hover,
+.section-2 > .card > .card4:hover {
+  background-color: white;
+}
+
+/* Add this to your Main.css */
+.section-2 .card .hovered {
+  background-color: white;
+}
+
+.section-2 img {
+  width: 100%;
+  height: auto;
+}
+
+.slick-prev,
+.slick-next {
+  color: black;
+  background-color: black;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.slick-prev {
+  left: 0;
+}
+
+.slick-next {
+  right: 0;
+}
+.section-3 {
+  margin-top: 150px;
+  width: 850px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+  .text > h2 {
+    font-size: 50px;
+    width: 750px;
+    text-align: center;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .text > p {
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+  }
+  .text > a {
+    font-size: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2px;
+    text-decoration: none;
+    color: skyblue;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.brand {
+  margin-top: 22px;
+  row-gap: 30px;
+  column-gap: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.section-4 {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  > .div1 {
+    display: flex;
+    font-size: 25px;
+    margin-left: 180px;
+    text-align: center;
+  }
+  > .div2 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    > .line {
+      position: absolute;
+      top: 0;
+    }
+  }
+}
+
+.section-5 {
+  margin-top: 60px;
+  width: 700px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  > span {
+    font-size: 30px;
+    text-align: center;
+  }
+  .div3 {
+    display: flex;
+    gap: 15px;
+  }
+  > .inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.section-7 {
+  margin-top: 80px;
+  width: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  .div5,
+  .div6 {
+    height: 550px;
+    width: 49%;
+    border-radius: 15px;
+    background-color: rgb(244, 244, 244);
+    position: relative;
+  }
+
+  .div5_1,
+  .div6_1 {
+    > .span1,
+    .span4 {
+      padding: 20px;
+    }
+    > .span2,
+    .span5 {
+      font-size: 22px;
+      margin-left: 20px;
+      font-weight: 700;
+      margin-bottom: 5px;
+    }
+    > .span3,
+    .span6 {
+      font-size: 19px;
+      margin-left: 20px;
+      margin-bottom: 5px;
+      margin-right: 20px;
+    }
+  }
+
+  .div5_2,
+  .div6_2 {
+    > img {
+      position: absolute;
+      height: 400px;
+      width: 95%;
+      right: 5px;
+    }
+  }
+}
+
+.section-8 {
+  margin-top: 80px;
+  width: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  > h2 {
+    font-size: 50px;
+    line-height: 60px;
+  }
+  > p {
+    font-size: 22px;
+    line-height: 25px;
+    text-align: center;
+  }
+  > a {
+    font-size: 20px;
+    line-height: 60px;
+    text-align: center;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: skyblue;
+    cursor: pointer;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.section-9 {
+  width: 1000px;
+  > .div9_1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    > .div9_1_1,
+    .div9_1_2,
+    .div9_1_3 {
+      width: 315px;
+      height: 150px;
+      border-radius: 10px;
+      background-color: rgb(244, 244, 244);
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+    .span9_1,
+    .span9_3,
+    .span9_5 {
+      font-size: 60px;
+      margin-top: 40px;
+      color: rgb(0, 149, 172);
+    }
+    .span9_2,
+    .span9_4,
+    .span9_6 {
+      text-align: center;
+      display: flex;
+      align-items: center;
+      font-size: 22px;
+      flex-direction: column;
+    }
+  }
+  .div9_2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .div9_2_1,
+    .div9_2_2 {
+      margin-top: 30px;
+      height: 450px;
+      width: 49%;
+      border-radius: 15px;
+      background-color: rgb(244, 244, 244);
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .span9_7,.span9_9{
+      margin-top: 50px;
+      font-size: 22px;
+      font-weight: 700;
+      margin-bottom: 5px;
+    }
+    .span9_8,.span9_10{
+      font-size: 22px;
+      margin-bottom: 5px;
+      margin-left: 40px;
+      text-align: center;
+    }
+    .div9_2_2_1{
+        margin-top: 30px;
+    >img{
+        height: 250px;
+        width: 425px;
+        right: 2px;
+    }
+  }}
+}

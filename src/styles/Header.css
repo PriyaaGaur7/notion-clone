@@ -1,0 +1,85 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    position: fixed;
+    background-color: white;
+    z-index: 1;
+    box-shadow: 1px 1px 1px 1px rgb(224, 224, 224);
+    width: 100%;
+    /* Optional: Add some padding for spacing */
+}
+
+.left-nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.left-nav li {
+    margin-right: 20px;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.logo {
+    width:  100px;
+    height: 40px;
+}
+
+.abc{
+    padding: 10px;
+    &:hover {
+            border-radius: 7px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(233, 232, 232);
+        }
+}
+
+.right-nav {
+    
+    display: flex;
+    justify-content: space-between;
+}
+.user{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.first, .second{
+    margin-right: 20px;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 17px;
+
+    &:hover{
+        border-radius: 7px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(233, 232, 232);
+    }
+}
+
+.free {
+    cursor: pointer;
+    padding: 10px;
+    font-size: 17px;
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+
+    &:hover {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(43, 43, 43);
+    }
+}
