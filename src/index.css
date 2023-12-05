@@ -1,6 +1,6 @@
 @import "../src/styles/Header.css";
 @import "../src/styles/Main.css";
-
+@import "../src/styles/Footer.css";
 
 *{
     margin: 0;

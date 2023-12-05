@@ -1,0 +1,128 @@
+.Footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.div_footer {
+  margin-top: 80px;
+  width: 1000px;
+  height: 70vh;
+  display: flex;
+  justify-content: space-between;
+}
+.left_footer {
+  height: 100%;
+  width: 25%;
+  > div {
+    margin-top: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+    > span {
+      &:hover {
+        height: 30px;
+        display: flex;
+        width: 30px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 2px;
+        background-color: rgb(226, 226, 226);
+      }
+    }
+  }
+  > span {
+    display: flex;
+    margin-top: 10px;
+    gap: 7px;
+    cursor: pointer;
+  }
+  .globe {
+    border: 1px solid rgb(169, 168, 168);
+    height: 35px;
+    width: 130px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 18px;
+    padding: 7px;
+    border-radius: 5px;
+    &:hover {
+      background-color: rgb(226, 226, 226);
+    }
+  }
+}
+.right_footer {
+  height: 100%;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+.div_footer_1,
+.div_footer_2,
+.div_footer_3 {
+  height: 100%;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.div_1_1,
+.div_1_2,
+.div_2_1,
+.div_2_2,
+.div_2_3,
+.div_3_1,
+.div_3_2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 8px;
+  align-items: start;
+  cursor: pointer;
+  color: rgb(121, 121, 121);
+  > span {
+    &:hover {
+      text-decoration: underline;
+      color: rgb(27, 160, 213);
+    }
+  }
+}
+.heading {
+  font-weight: 700;
+  font-size: 20px;
+  color: black;
+  &:hover {
+    text-decoration: none !important;
+    color: black !important;
+  }
+}
+
+.last_div {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 370px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-direction: column;
+  .span1 {
+    font-size: 17px;
+    width: 370px;
+    margin-bottom: 3px;
+    cursor: pointer;
+    &:hover {
+      text-decoration: underline;
+      color: rgb(17, 164, 222);
+    }
+  }
+  .span2 {
+    width: 370px;
+    color: rgb(99, 99, 99);
+  }
+}

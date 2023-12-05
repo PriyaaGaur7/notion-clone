@@ -121,7 +121,7 @@
 .slick-prev,
 .slick-next {
   color: black;
-  background-color: black;
+  background-color: transparent;
   width: 70px;
   height: 70px;
   border-radius: 50%;
@@ -392,4 +392,217 @@
         right: 2px;
     }
   }}
+}
+
+.section-10{
+  margin-top: 25px;
+  width: 1000px;
+  height: 650px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  .div10_1{
+    height: 650px;
+    width: 650px;
+    background-color: rgb(244, 244, 244);
+    border-radius: 15px;
+   
+    img{
+      margin-top: 15px;
+    }
+  }
+  .div10_2{
+    height: 650px;
+    width: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    }
+    .div10_2_1,.div10_2_2,.div10_2_3{
+      height: 200px;
+      width: 100%;
+      background-color: rgb(244, 244, 244);
+      border-radius: 15px;
+    }
+    .heading{
+      display: flex;
+      align-items: center;
+      margin: 15px;
+    }
+    .user_comments{
+      display: flex;
+      flex-direction: column;
+      margin-left: 15px;
+    }
+    .realname{
+      font-weight: 700;
+    }
+    .username{
+      font-weight: 500;
+      color: rgb(81, 81, 81);
+    }
+    .comments{
+      margin: 15px;
+      font-size: 17.5px;
+    }
+}
+
+.section-11{
+  display: flex;
+  margin-top: 80px;
+  margin-left: 250px;
+  gap: 50px;
+  .div11_1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    >h1{
+      font-size: 50px;
+    }
+    >a{
+      display: flex;
+      gap: 10px;
+      font-size: 20px;
+    }
+  }
+}
+
+.section-12{
+  height: 90vh;
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  .div12_left{
+    background-color: rgb(244, 244, 244);
+    &:hover{
+      background-color: rgb(226, 226, 226);
+    }
+  }
+  .div12_left,.div12_right{
+    width: 48.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .upper{
+    height: 36%;
+    width: 100%;
+  }
+  .down{
+    height: 64%;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    >img{
+      margin-right: 2px;
+    }
+    
+  }
+  .div12_1{
+    height: 32%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .div12_1_1,.div12_1_2{
+    background-color: rgb(244, 244, 244);
+    width: 47%;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+    border-radius: 15px;
+    cursor: pointer;
+    &:hover{
+       background-color: rgb(226, 226, 226);
+    }
+  }
+  .span12_1{
+    margin-top: 25px;
+    margin-left: 25px;
+  }
+  .span12_2{
+    margin-top: 20px;
+    margin-left: 25px;
+    font-size: 21px;
+    font-weight: 700;
+  }
+  .span12_3{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    margin-left: 25px;
+    color: rgb(27, 171, 228);
+    margin-top: 35px;
+    font-size: 18px;
+    &:hover{
+      cursor: pointer;
+      text-decoration: underline;
+    }
+  }
+  .div12_1_12{
+    margin-top: 05px;
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+  }
+}
+
+.section-13{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 70px;
+  .div13_1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    >h1{
+      font-size: 65px;
+    }
+    >p{
+      margin: 10px;
+      font-size: 20px;
+    }
+  }
+  .div13_inner{
+    display: flex;
+    gap: 10px;
+    .span13_1{
+      height: 35px;
+      width: 140px;
+      background-color: black;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 19px;
+      text-align: center;
+      border-radius: 7px;
+      cursor: pointer;
+      &:hover{
+        background-color: rgb(51, 51, 51);
+      }
+    }
+    .span13_2{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      gap: 5px;
+      font-size: 19px;
+      color: rgb(21, 164, 220);
+      cursor: pointer;
+      &:hover{
+        text-decoration: underline;
+      }
+    }
+  }
 }
